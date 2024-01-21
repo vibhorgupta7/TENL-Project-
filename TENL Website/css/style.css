@@ -643,7 +643,8 @@ h1, h2, h3, h4, h5,
       font-size: 3.5rem;
       color: #CFB991; }
     .section-bg.style-1 h3 {
-      font-size: 20px;
+      font-size: 25px;
+      font-weight: 500;
       color: #CFB991;
       margin-bottom: 30px; }
     .section-bg.style-1 p {

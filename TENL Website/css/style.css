@@ -569,8 +569,8 @@ h1, h2, h3, h4, h5,
   background-size: cover;
   position: relative; }
   .intro-section, .intro-section .container .row {
-    height: 100vh;
-    min-height: 900px; }
+    height: 60vh;
+    min-height: 600px; }
   .intro-section:before {
     content: "";
     position: absolute;
@@ -586,13 +586,17 @@ h1, h2, h3, h4, h5,
       .intro-section:before {
         width: 100%; } }
   .intro-section h1 {
-    font-size: 7rem;
-    font-weight: 900;
+    font-size: 6rem;
+    font-weight: 600;
     color: #fff; }
   .intro-section p {
     color: rgba(255, 255, 255, 0.5);
     font-size: 1.1rem;
     max-width: 400px; }
+  .intro-section h4 {
+    font-size: 2rem;
+    font-weight: 200;
+    color: #e8dada; }
 
 .custom-breadcrumns {
   padding: 20px 0; }

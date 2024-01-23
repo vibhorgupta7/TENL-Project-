@@ -952,6 +952,9 @@ h1, h2, h3, h4, h5,
     margin-bottom: 30px; }
     .footer .footer-heading span {
       border-bottom: 3px solid #fff; }
+  .footer a {
+    color: white;
+  }
   .footer a:hover {
     color: #fff;
     text-decoration: underline; }
@@ -1106,4 +1109,8 @@ h1, h2, h3, h4, h5,
 
 .bg-beige {
   background-color: #CFB991;
+}
+
+.color-white{
+  color: white;
 }

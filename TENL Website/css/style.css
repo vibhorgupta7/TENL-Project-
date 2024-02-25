@@ -977,7 +977,7 @@ h1, h2, h3, h4, h5,
   .ftco-subscribe-1:before {
     position: absolute;
     content: "";
-    background: #183661;
+    background: black;
     opacity: .7;
     z-index: 1;
     top: 0;
@@ -1119,4 +1119,8 @@ h1, h2, h3, h4, h5,
 
 .color-white{
   color: white;
+}
+
+.smaller-image {
+  transform: scale(0.8); /* Reduces the size to 50% of the original */
 }

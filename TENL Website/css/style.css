@@ -1124,3 +1124,49 @@ h1, h2, h3, h4, h5,
 .smaller-image {
   transform: scale(0.8); /* Reduces the size to 50% of the original */
 }
+
+.no-gap {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.row.no-gap {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+/* Optional: Adjustments for better appearance */
+
+
+.feature-2-content {
+  padding: 15px; /* Adds some internal spacing for each box */
+  height: 280px;
+  overflow: auto;
+  background-color: white;
+  border:white 2px solid;
+}
+
+.feature-2 .feature-2-content, .person .feature-2-content {
+  padding: 50px 20px 20px 20px;
+  text-align:center }
+  .feature-2 .feature-2-content h2, .person .feature-2-content h2 {
+    font-size: 1.5rem;
+    font-weight: 00;
+    color: #CFB991; }
+  .feature-2 .feature-2-content h2, .person .feature-2-content p, span {
+    color: black;
+
+  }
+
+.caution-para{
+  font-size: 13px;
+  font-weight: 400;
+
+}
+
+.border-box{
+  border: #CFB991 4px solid;
+  width: 100%;
+  border-radius: 5px;
+  margin: 20px 0;
+}

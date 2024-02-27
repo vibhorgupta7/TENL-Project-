@@ -1164,9 +1164,16 @@ h1, h2, h3, h4, h5,
 
 }
 
-.border-box{
-  border: #CFB991 4px solid;
+.border-box {
+  border: #CFB991 5px solid;
   width: 100%;
-  border-radius: 5px;
-  margin: 20px 0;
+  /* border-radius: 5px; */
+  margin: 20px 0 0 0; /* Changed bottom margin to 0 */
+}
+
+.border-box-black {
+  border: black 3px solid;
+  width: 100%;
+  /* border-radius: 5px; */
+  margin: 0 0 20px 0; /* Changed top margin to 0 */
 }

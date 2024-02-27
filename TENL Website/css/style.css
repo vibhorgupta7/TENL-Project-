@@ -1151,7 +1151,7 @@ h1, h2, h3, h4, h5,
   text-align:center }
   .feature-2 .feature-2-content h2, .person .feature-2-content h2 {
     font-size: 1.5rem;
-    font-weight: 00;
+    font-weight: 700;
     color: #CFB991; }
   .feature-2 .feature-2-content h2, .person .feature-2-content p, span {
     color: black;
@@ -1159,20 +1159,20 @@ h1, h2, h3, h4, h5,
   }
 
 .caution-para{
-  font-size: 13px;
-  font-weight: 400;
+  font-size: 15px;
+  font-weight: 300;
 
 }
 
 .border-box {
-  border: #CFB991 5px solid;
+  border: black 6px solid;
   width: 100%;
   /* border-radius: 5px; */
   margin: 20px 0 0 0; /* Changed bottom margin to 0 */
 }
 
 .border-box-black {
-  border: black 3px solid;
+  border: #CFB991 4px solid;
   width: 100%;
   /* border-radius: 5px; */
   margin: 0 0 20px 0; /* Changed top margin to 0 */

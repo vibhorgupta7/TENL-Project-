@@ -1172,7 +1172,7 @@ h1, h2, h3, h4, h5,
 }
 
 .border-box-black {
-  border: #CFB991 2px solid;
+  border: #CFB991 3px solid;
   width: 100%;
   /* border-radius: 5px; */
   margin: 0 0 20px 0; /* Changed top margin to 0 */

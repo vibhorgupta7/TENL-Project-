@@ -1194,3 +1194,31 @@ h1, h2, h3, h4, h5,
 .text-left{
   text-align: left;
 }
+
+.accordion-button {
+  color: black; /* Text color */
+  background-color: white; /* Background color */
+  transition: 0.3s;
+}
+
+
+
+.accordion-button.active {
+  color: white; /* Text color */
+  background-color: #CFB991; /* Background color */
+  transition: 0.3s;
+}
+
+.accordion-body{
+  font-size: smaller;
+}
+
+.accordion-body p a{
+  color: #938569;
+  font-weight: bold;
+}
+.accordion-body p a:hover{
+  color: #CFB991;
+  font-size: medium;
+  transition: 0.3s;
+}

@@ -960,9 +960,11 @@ h1, h2, h3, h4, h5,
   .footer .footer-heading {
     font-size: 16px;
     color: #fff;
-    margin-bottom: 30px; }
+    margin-bottom: 30px; 
+    text-transform: uppercase;  
+  }
     .footer .footer-heading span {
-      border-bottom: 3px solid #fff; }
+      border-bottom: 2px solid #CFB991; }
   .footer a {
     color: white;
   }

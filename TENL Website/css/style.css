@@ -1122,8 +1122,24 @@ h1, h2, h3, h4, h5,
   background-color: #CFB991;
 }
 
+.bg-black{
+  background-color: #000;
+}
+
 .color-white{
   color: white;
+}
+
+.beige-border-faculty{
+  border: 4px solid #CFB991;
+}
+
+.black-border-faculty{
+  border: 4px solid black;
+}
+
+.color-black{
+  color: #000;
 }
 
 .smaller-image {

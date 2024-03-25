@@ -1232,6 +1232,11 @@ h1, h2, h3, h4, h5,
   transition: 0.3s;
 }
 
+.accordion-body {
+  background-color: rgb(243, 243, 243); /* Background color */
+  transition: 0.3s;
+}
+
 .accordion-body{
   font-size: smaller;
 }

@@ -1227,8 +1227,10 @@ h1, h2, h3, h4, h5,
 
 
 .accordion-button.active {
-  color: white; /* Text color */
-  background-color: #CFB991; /* Background color */
+  color: #CFB991; /* Text color */
+  background-color: black; /* Background color */
+  font-size: large;
+  font-weight: bold;
   transition: 0.3s;
 }
 

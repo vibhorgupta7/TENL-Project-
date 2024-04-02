@@ -1240,7 +1240,8 @@ h1, h2, h3, h4, h5,
 }
 
 .accordion-body{
-  font-size: smaller;
+  font-size: 1.1rem;
+  font-weight: 300;
 }
 
 .accordion-body p a{
@@ -1272,5 +1273,21 @@ h1, h2, h3, h4, h5,
 .pr-content{
   color: gray;
   font-weight: 400;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
+}
+
+.course-1-content .pr-content { 
+  color: gray;
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+.course-content {
+  font-weight: 300;
+  font-size: 1.2rem;
+}
+
+.elp-accordian{
+  font-weight: 300;
+  font-size: 1.2rem;
 }

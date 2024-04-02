@@ -1261,10 +1261,16 @@ h1, h2, h3, h4, h5,
 .faculty-email{
   color: #CFB991;
   font-weight: 400;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
 }
 
 .faculty-email:hover{
   color: #000;
   transition: 0.1s;
+}
+
+.pr-content{
+  color: gray;
+  font-weight: 400;
+  font-size: 1.3rem;
 }

@@ -55,6 +55,8 @@ h1, h2, h3, h4, h5,
   opacity: 0;
   visibility: hidden; }
 
+  
+
 .offcanvas-menu .site-wrap {
   height: 100%;
   width: 100%;
@@ -602,6 +604,24 @@ h1, h2, h3, h4, h5,
     font-size: 2rem;
     font-weight: 200;
     color: #e8dada; }
+
+    @media (max-width: 991.98px) {
+      .intro-section:before {
+        width: 100%;
+      }
+    
+      .intro-section h1 {
+        font-size: 3rem; /* Adjusted font size */
+      }
+      
+      .intro-section h4 {
+        font-size: 1.0rem; /* Adjusted font size */
+      }
+      
+      .intro-section p {
+        font-size: 1.0rem; /* Adjusted font size */
+      }
+    }
 
 .custom-breadcrumns {
   padding: 20px 0; }

@@ -1318,3 +1318,32 @@ h1, h2, h3, h4, h5,
   font-weight: 300;
   font-size: 1.2rem;
 }
+
+
+.horizontal-list {
+  display: flex;
+  list-style: none; /* Removes default list bullets */
+  padding-left: 0; /* Removes default padding */
+  margin: 0; /* Removes default margin */
+  align-items: center; /* Aligns items vertically in the center, if needed */
+}
+
+.horizontal-list li {
+  margin-right: 0px; /* Adds some space between the list items */
+}
+
+.horizontal-list li:last-child {
+  margin-right: 0; /* Removes margin from the last item to avoid unnecessary spacing */
+}
+
+.horizontal-list a {
+  color: black; /* Ensures all links are black, you can customize this */
+  text-decoration: none; /* Removes the underline from links */
+  font-size: .5rem;
+  font-weight: 400;
+}
+
+.custom-breadcrumns {
+  background-color: #CFB991; /* Example background color, replace 'bg-beige' with your actual color */
+  border-bottom: 1px solid #ccc; /* Adds a bottom border */
+}
